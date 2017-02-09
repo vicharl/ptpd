@@ -168,9 +168,9 @@ AC_C_VOLATILE
 
 # Automake 2.59 has a problem with those on RHEL5
 m4_version_prereq(2.60,[
-    AC_TYPE_UINT32_T
-    AC_TYPE_UINT64_T
-    AC_TYPE_UINT8_T
+#    AC_TYPE_UINT32_T
+#    AC_TYPE_UINT64_T
+#    AC_TYPE_UINT8_T
     AC_TYPE_SIZE_T
     AC_TYPE_SSIZE_T
     AC_TYPE_INT64_T
